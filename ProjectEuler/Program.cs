@@ -15,8 +15,12 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
+            
             const int maxValue = 1000;
+            
+            //using HashSet because we don't want duplicates
             var numbersList = new HashSet<int>();
+
             int temp = 0;
             int total = 0;
 
@@ -25,7 +29,7 @@ namespace ProjectEuler
             while (temp < maxValue)
             {
                 numbersList.Add(temp);
-                temp+=3;
+                temp += 3;
             }
 
             // add multiples of 5's below 1000
@@ -41,9 +45,6 @@ namespace ProjectEuler
                 total += num;
 
             Console.WriteLine("Total: " + total);
-
-
-
         }
     }
 }

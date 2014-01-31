@@ -16,24 +16,27 @@ namespace Problem002
             int fibonacciValueA = 1;
             int fibonacciValueB = 2;
             int fibonacciValueC = 0;
+            
+            //initialize the first 2 fibonacci values
             fibonacciList.Add(fibonacciValueA);
             fibonacciList.Add(fibonacciValueB);
             
             do
             {
+                //update the next fibonacci value
                 fibonacciValueC = fibonacciValueA + fibonacciValueB;
+                
                 if (fibonacciValueC < maxValue)
                 {
                     fibonacciList.Add(fibonacciValueC);
                 }
+
                 //update the values
                 fibonacciValueA = fibonacciValueB;
                 fibonacciValueB = fibonacciValueC;
                 
             
             } while (fibonacciValueC < maxValue);
-
-            //fibonacciList.ForEach(number => Console.WriteLine(number));
 
             int sumEvenValues = 0;
             foreach (var number in fibonacciList)
