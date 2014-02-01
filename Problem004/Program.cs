@@ -10,7 +10,7 @@
 
 using System;
 
-namespace Problem004
+namespace Problem006
 {
     class Program
     {
