@@ -14,6 +14,14 @@ namespace Problem003
     {
         static void Main(string[] args)
         {
+            int maxValue = 12;
+            int currentNumber = 2;
+
+            
+
+
+
+
         }
     }
 }
