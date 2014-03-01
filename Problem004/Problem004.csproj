@@ -7,7 +7,7 @@
     <ProjectGuid>{BD723FD1-0E3E-4EE1-8EF5-6EDF90920FE9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Problem006</RootNamespace>
+    <RootNamespace>Problem004</RootNamespace>
     <AssemblyName>Problem004</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
